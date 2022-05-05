@@ -14,13 +14,13 @@ function toggleMenu()
   {
    menuDiv.style.left="0";
    xmlgd=1;
-   bodyX.style.position="fixed";
+   bodyX.style.overflow="hidden";
    screenCover.style.display="inline-block";
   }
   else{
     menuDiv.style.left ="-300px";
     xmlgd=0;
-    bodyX.style.position="static";
+    bodyX.style.overflow="auto";
     screenCover.style.display="none";
   }
   
