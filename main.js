@@ -15,7 +15,7 @@ function toggleMenu()
   {
     menuDiv.style.left = "0";
     menuStatusCount = 1;
-    mainBodyTag.style.overflow  "hidden";
+    mainBodyTag.style.overflow = "hidden";
     screenCover.style.display = "inline-block";
   }
   else {
